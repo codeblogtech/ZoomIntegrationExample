@@ -42,8 +42,8 @@ class MainActivity : AppCompatActivity() {
 
         // TODO: Do not use hard-coded values for your key/secret in your app in production!
         val params = ZoomSDKInitParams().apply {
-            appKey = "3ZUr1uVIaDuPU0CrmLNCYWVprcJtgPYJFjxX" // TODO: Retrieve your SDK key and enter it here
-            appSecret = "QXVRsAQXLH2J8EE6jQrSrXztoN7y0iboDHgC" // TODO: Retrieve your SDK secret and enter it here
+            appKey = "" // TODO: Retrieve your SDK key and enter it here
+            appSecret = "" // TODO: Retrieve your SDK secret and enter it here
             domain = "zoom.us"
             enableLog = true // Optional: enable logging for debugging
         }
